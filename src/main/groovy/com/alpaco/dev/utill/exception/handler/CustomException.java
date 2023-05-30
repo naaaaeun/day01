@@ -1,6 +1,7 @@
 package com.alpaco.dev.utill.exception.handler;
 
 import com.alpaco.dev.utill.BaseResponse;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
